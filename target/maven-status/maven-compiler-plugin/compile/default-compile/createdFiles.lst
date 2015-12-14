@@ -1,2 +1,6 @@
-com/pixelworld/PixelWorldApplication.class
+com/pixelworld/service/UserService.class
+com/pixelworld/controller/UserController.class
 com/pixelworld/controller/HelloController.class
+com/pixelworld/repository/UserRepository.class
+com/pixelworld/domain/User.class
+com/pixelworld/PixelWorldApplication.class

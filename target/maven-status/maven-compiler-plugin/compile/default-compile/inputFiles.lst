@@ -1,2 +1,7 @@
+/Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/config/DatabaseConfig.java
 /Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/controller/HelloController.java
+/Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/domain/User.java
+/Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/service/UserService.java
+/Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/controller/UserController.java
 /Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/PixelWorldApplication.java
+/Users/BladeInShine/Documents/Intellij Project/PixelWorld/src/main/java/com/pixelworld/repository/UserRepository.java

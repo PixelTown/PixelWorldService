@@ -16,7 +16,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public HttpEntity<String> hello(@RequestParam(value = "name", defaultValue = "xiaofang gay")String name){
-        return new ResponseEntity<String>("Hello "+name, HttpStatus.OK);
+        return new ResponseEntity<>("Hello " + name, HttpStatus.OK);
     }
 
 }
