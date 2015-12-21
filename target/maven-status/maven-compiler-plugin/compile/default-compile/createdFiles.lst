@@ -1,6 +1,11 @@
+com/pixelworld/domain/Equipment.class
+com/pixelworld/utils/UserUtils.class
+com/pixelworld/repository/EquipmentRepository.class
 com/pixelworld/service/UserService.class
 com/pixelworld/controller/UserController.class
+com/pixelworld/service/EquipmentService.class
 com/pixelworld/controller/HelloController.class
 com/pixelworld/repository/UserRepository.class
+com/pixelworld/controller/EquipmentController.class
 com/pixelworld/domain/User.class
 com/pixelworld/PixelWorldApplication.class
