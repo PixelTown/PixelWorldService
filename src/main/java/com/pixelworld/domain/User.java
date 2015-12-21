@@ -25,6 +25,7 @@ public class User implements Serializable {
     private String glove;
     private String left;
     private String right;
+    private int floor;
 
     public String getId() {
         return id;
@@ -122,6 +123,14 @@ public class User implements Serializable {
         this.right = right;
     }
 
+    public int getFloor() {
+        return floor;
+    }
+
+    public void setFloor(int floor) {
+        this.floor = floor;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -153,6 +162,7 @@ public class User implements Serializable {
                 ", glove='" + glove + '\'' +
                 ", left='" + left + '\'' +
                 ", right='" + right + '\'' +
+                ", floor=" + floor +
                 '}';
     }
 }

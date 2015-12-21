@@ -43,7 +43,10 @@ public class UserController {
 
     @RequestMapping(value = "/updateuser", method = RequestMethod.POST)
     public HttpEntity<User> updateUserInfo(@RequestBody User user){
-        User u = userService.save(user);
+        User u = userService.findByUsername(user.getUsername());
+        if(u != null)
+            userService.deleteByUsername(u.getUsername());
+        u = userService.save(user);
         return new ResponseEntity<User>(u, HttpStatus.OK);
     }
 
