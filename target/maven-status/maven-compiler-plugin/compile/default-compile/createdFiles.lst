@@ -4,6 +4,7 @@ com/pixelworld/controller/UserController.class
 com/pixelworld/service/EquipmentService.class
 com/pixelworld/controller/HelloController.class
 com/pixelworld/repository/MonsterRepository.class
+com/pixelworld/utils/BattleUtils.class
 com/pixelworld/controller/EquipmentController.class
 com/pixelworld/PixelWorldApplication.class
 com/pixelworld/domain/Equipment.class
