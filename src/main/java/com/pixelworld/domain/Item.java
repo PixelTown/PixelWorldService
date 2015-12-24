@@ -6,21 +6,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.io.Serializable;
 
 /**
- * Created by BladeInShine on 15/12/21.
+ * Created by BladeInShine on 15/12/23.
  */
-
-@Document(collection = "monster")
-public class Monster implements Serializable{
+@Document(collection = "item")
+public class Item implements Serializable{
 
     @Id
     private String id;
 
     private String name;
-    private int atk;
-    private int def;
-    private int hp;
-    private int floor;
-    private String drop;
     private String description;
 
     public String getId() {
@@ -39,46 +33,6 @@ public class Monster implements Serializable{
         this.name = name;
     }
 
-    public int getAtk() {
-        return atk;
-    }
-
-    public void setAtk(int atk) {
-        this.atk = atk;
-    }
-
-    public int getDef() {
-        return def;
-    }
-
-    public void setDef(int def) {
-        this.def = def;
-    }
-
-    public int getHp() {
-        return hp;
-    }
-
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
-
-    public int getFloor() {
-        return floor;
-    }
-
-    public void setFloor(int floor) {
-        this.floor = floor;
-    }
-
-    public String getDrop() {
-        return drop;
-    }
-
-    public void setDrop(String drop) {
-        this.drop = drop;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -92,9 +46,9 @@ public class Monster implements Serializable{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Monster monster = (Monster) o;
+        Item item = (Item) o;
 
-        return name.equals(monster.name);
+        return name.equals(item.name);
 
     }
 
@@ -105,14 +59,9 @@ public class Monster implements Serializable{
 
     @Override
     public String toString() {
-        return "Monster{" +
+        return "Item{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
-                ", atk=" + atk +
-                ", def=" + def +
-                ", hp=" + hp +
-                ", floor=" + floor +
-                ", drop='" + drop + '\'' +
                 ", description='" + description + '\'' +
                 '}';
     }
