@@ -36,6 +36,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BattleController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5954357">
+              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/domain/Item.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,6 +68,16 @@
                 <element signature="e#1080#1081#0" expanded="true" />
                 <element signature="e#1118#1119#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BattleUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/BattleUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventoryController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InventoryController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/InventoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7697095">
+            <state vertical-scroll-proportion="0.0">
               <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -167,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/MonsterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/utils/BattleUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/domain/Monster.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/domain/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/repository/ItemRepository.java" />
@@ -179,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/service/InventoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/InventoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java" />
       </list>
     </option>
   </component>
@@ -931,12 +951,12 @@
       <workItem from="1448516968762" duration="4849000" />
       <workItem from="1450030753576" duration="9685000" />
       <workItem from="1450663329492" duration="14093000" />
-      <workItem from="1450838500693" duration="10756000" />
+      <workItem from="1450838500693" duration="12205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40354000" />
+    <option name="totallyTimeSpent" value="41803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -949,7 +969,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -958,7 +978,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24889544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1041,9 +1061,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,16 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/BattleUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34647304">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65767634">
@@ -1352,16 +1360,6 @@
         <state vertical-scroll-proportion="0.560166">
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1536,11 +1534,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/InventoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7697095">
+        <state vertical-scroll-proportion="0.0">
           <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/BattleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5954357">
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

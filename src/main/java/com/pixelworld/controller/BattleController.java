@@ -5,6 +5,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.pixelworld.domain.Monster;
 import com.pixelworld.domain.User;
+import com.pixelworld.service.InventoryService;
 import com.pixelworld.service.MonsterService;
 import com.pixelworld.service.UserService;
 import com.pixelworld.utils.BattleUtils;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.inject.Inject;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by BladeInShine on 15/12/21.
@@ -37,6 +40,9 @@ public class BattleController {
 
     @Inject
     private BattleUtils battleUtils;
+
+    @Inject
+    private InventoryService inventoryService;
 
     @RequestMapping(value = "/monster", method = RequestMethod.POST)
     public HttpEntity<String> queryMonster(@RequestBody String body){
@@ -74,6 +80,9 @@ public class BattleController {
             return new ResponseEntity<String>("Monster or Floor Not Found", HttpStatus.NOT_FOUND);
         String res = battleUtils.battleCalculation(user, monster);
         JsonObject ret = new JsonObject();
+        List<String> drops = new ArrayList<>();
+        drops.add(res);
+        inventoryService.addItem(info.get("username").getAsString(), drops);
         if(res.equals("failed")){
             ret.addProperty("drop", "failed");
         }
