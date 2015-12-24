@@ -82,4 +82,28 @@ public class InventoryController {
         return new ResponseEntity<String>(gson.toJson(inventory), HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/addequip", method = RequestMethod.POST)
+    public HttpEntity<String> addEquip(@RequestBody String body){
+        JsonObject username = (new JsonParser()).parse(body).getAsJsonObject();
+        if(username.get("username").isJsonNull())
+            return new ResponseEntity<String>("No Username Passed", HttpStatus.INTERNAL_SERVER_ERROR);
+        Gson gson = new Gson();
+        Type type = new TypeToken<List<String>>(){}.getType();
+        List<String> equips = gson.fromJson(username.get("equips"), type);
+        Inventory inventory = inventoryService.addEquip(username.get("username").getAsString(), equips);
+        return new ResponseEntity<String>(gson.toJson(inventory), HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/delequip", method = RequestMethod.POST)
+    public HttpEntity<String> delEquip(@RequestBody String body){
+        JsonObject username = (new JsonParser()).parse(body).getAsJsonObject();
+        if(username.get("username").isJsonNull())
+            return new ResponseEntity<String>("No Username Passed", HttpStatus.INTERNAL_SERVER_ERROR);
+        Gson gson = new Gson();
+        Type type = new TypeToken<List<String>>(){}.getType();
+        List<String> equips = gson.fromJson(username.get("equips"), type);
+        Inventory inventory = inventoryService.deleteEquip(username.get("username").getAsString(), equips);
+        return new ResponseEntity<String>(gson.toJson(inventory), HttpStatus.OK);
+    }
+
 }

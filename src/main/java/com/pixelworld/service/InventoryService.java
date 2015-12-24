@@ -1,7 +1,9 @@
 package com.pixelworld.service;
 
+import com.pixelworld.domain.Equipment;
 import com.pixelworld.domain.Inventory;
 import com.pixelworld.domain.Item;
+import com.pixelworld.repository.EquipmentRepository;
 import com.pixelworld.repository.InventoryRepository;
 import com.pixelworld.repository.ItemRepository;
 import org.slf4j.Logger;
@@ -25,6 +27,9 @@ public class InventoryService {
 
     @Inject
     private ItemRepository itemRepository;
+
+    @Inject
+    private EquipmentRepository equipmentRepository;
 
     public Inventory findByUsername(String username){
         return inventoryRepository.findOneByUsername(username);
@@ -63,6 +68,34 @@ public class InventoryService {
         return inventoryRepository.save(inv);
     }
 
+    public Inventory addEquip(String username, List<String> equips){
+        Inventory inv = inventoryRepository.findOneByUsername(username);
+        List<Equipment> userEquips = inv.getEquipments();
+        for(String e : equips){
+            userEquips.add(equipmentRepository.findOneByName(e));
+        }
+        inv.setEquipments(userEquips);
+        inventoryRepository.deleteByUsername(username);
+        return inventoryRepository.save(inv);
+    }
+
+    public Inventory deleteEquip(String username, List<String> equips){
+        Inventory inv = inventoryRepository.findOneByUsername(username);
+        List<Equipment> userEquips = inv.getEquipments();
+        for(String e : equips){
+            int j = 0;
+            for(Equipment equipment : userEquips){
+                if(equipment.getName().equals(e)){
+                    userEquips.remove(j);
+                    break;
+                }
+                j++;
+            }
+        }
+        inv.setEquipments(userEquips);
+        inventoryRepository.deleteByUsername(username);
+        return inventoryRepository.save(inv);
+    }
 
     public Inventory save(Inventory inventory){
         return inventoryRepository.save(inventory);
