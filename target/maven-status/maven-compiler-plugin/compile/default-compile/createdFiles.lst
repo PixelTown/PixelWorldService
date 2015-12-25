@@ -1,4 +1,5 @@
 com/pixelworld/repository/EquipmentRepository.class
+com/pixelworld/utils/EquipUtils.class
 com/pixelworld/controller/InventoryController$1.class
 com/pixelworld/repository/InventoryRepository.class
 com/pixelworld/repository/MonsterRepository.class
