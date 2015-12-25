@@ -115,34 +115,46 @@ public class EquipUtils {
         List<Equipment> userEquips = inventory.getEquipments();
         switch (field){
             case "left":
-                Equipment equip = equipmentService.findOneByName(user.getLeft());
-                userEquips.add(equip);
+                if(!user.getLeft().equals("null")) {
+                    Equipment equip = equipmentService.findOneByName(user.getLeft());
+                    userEquips.add(equip);
+                }
                 user.setLeft("null");
                 break;
             case "right":
-                equip = equipmentService.findOneByName(user.getRight());
-                userEquips.add(equip);
+                if(!user.getRight().equals("null")) {
+                    Equipment equip = equipmentService.findOneByName(user.getRight());
+                    userEquips.add(equip);
+                }
                 if(user.getLeft().equals("twohanded")) user.setLeft("null");
                 user.setRight("null");
                 break;
             case "head":
-                equip = equipmentService.findOneByName(user.getHead());
-                userEquips.add(equip);
+                if(!user.getHead().equals("null")) {
+                    Equipment equip = equipmentService.findOneByName(user.getHead());
+                    userEquips.add(equip);
+                }
                 user.setHead("null");
                 break;
             case "armor":
-                equip = equipmentService.findOneByName(user.getArmor());
-                userEquips.add(equip);
+                if(!user.getArmor().equals("null")) {
+                    Equipment equip = equipmentService.findOneByName(user.getArmor());
+                    userEquips.add(equip);
+                }
                 user.setArmor("null");
                 break;
             case "boot":
-                equip = equipmentService.findOneByName(user.getBoot());
-                userEquips.add(equip);
+                if(!user.getBoot().equals("null")) {
+                    Equipment equip = equipmentService.findOneByName(user.getBoot());
+                    userEquips.add(equip);
+                }
                 user.setBoot("null");
                 break;
             case "glove":
-                equip = equipmentService.findOneByName(user.getGlove());
-                userEquips.add(equip);
+                if(!user.getGlove().equals("null")) {
+                    Equipment equip = equipmentService.findOneByName(user.getGlove());
+                    userEquips.add(equip);
+                }
                 user.setGlove("null");
                 break;
             default:
