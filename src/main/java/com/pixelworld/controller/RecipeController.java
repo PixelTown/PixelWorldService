@@ -55,4 +55,17 @@ public class RecipeController {
         return new ResponseEntity<String>(gson.toJson(forgeRecipes), HttpStatus.OK);
     }
 
+    @RequestMapping(value = "forge", method = RequestMethod.POST)
+    public HttpEntity<String> forge(@RequestBody String body){
+        JsonObject info = (new JsonParser()).parse(body).getAsJsonObject();
+        if(info.get("username").isJsonNull())
+            return new ResponseEntity<String>("No Username Passed", HttpStatus.INTERNAL_SERVER_ERROR);
+        if(info.get("name").isJsonNull())
+            return new ResponseEntity<String>("No Recipe Name Passed", HttpStatus.INTERNAL_SERVER_ERROR);
+        String res = recipeUtils.forge(info.get("username").getAsString(), info.get("name").getAsString());
+        JsonObject ret = new JsonObject();
+        ret.addProperty("status",res);
+        return new ResponseEntity<String>(ret.toString(), HttpStatus.OK);
+    }
+
 }
