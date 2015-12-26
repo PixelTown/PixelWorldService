@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="38" column="86" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BattleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java">
+      <file leaf-file-name="InventoryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/InventoryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+              <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecipeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/RecipeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -56,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquipUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/EquipUtils.java">
+      <file leaf-file-name="RecipeUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/RecipeUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.27593362">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.78215766">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,6 +136,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/EquipmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/utils/EquipUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/repository/ForgeRecipeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/service/ForgeRecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/service/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/domain/ForgeRecipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/controller/RecipeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pixelworld/utils/RecipeUtils.java" />
       </list>
     </option>
   </component>
@@ -878,12 +894,12 @@
       <workItem from="1448516968762" duration="4849000" />
       <workItem from="1450030753576" duration="9685000" />
       <workItem from="1450663329492" duration="14093000" />
-      <workItem from="1450838500693" duration="20283000" />
+      <workItem from="1450838500693" duration="27803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49881000" />
+    <option name="totallyTimeSpent" value="57401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +912,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -905,8 +921,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24889544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -976,24 +992,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="85" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/BattleUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1230,14 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34232366">
@@ -1269,31 +1259,21 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/repository/InventoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.373444">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#599#600#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#757#758#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#1080#1081#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1318,46 +1298,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/domain/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/service/InventoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#3248#3249#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#3248#3249#0" expanded="false" />
+            <element signature="e#3306#3307#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1367,7 +1319,7 @@
         <state vertical-scroll-proportion="-0.18257262">
           <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding>
-            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1404,14 +1356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/service/EquipmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31120333">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/UserUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21784233">
@@ -1420,10 +1364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/InventoryController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/EquipUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.75103736">
+          <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1432,9 +1376,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/BattleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4087137">
           <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25311205">
+          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/domain/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/repository/ForgeRecipeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.373444">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/repository/InventoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34232366">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/service/EquipmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31120333">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/service/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.719917">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/domain/ForgeRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5643154">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="86" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1446,20 +1486,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/RecipeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/EquipUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/controller/InventoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27593362">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pixelworld/utils/RecipeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78215766">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

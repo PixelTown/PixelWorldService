@@ -3,6 +3,7 @@ com/pixelworld/utils/EquipUtils.class
 com/pixelworld/controller/InventoryController$1.class
 com/pixelworld/repository/InventoryRepository.class
 com/pixelworld/repository/MonsterRepository.class
+com/pixelworld/controller/RecipeController.class
 com/pixelworld/repository/ItemRepository.class
 com/pixelworld/service/InventoryService.class
 com/pixelworld/utils/UserUtils.class
@@ -17,14 +18,18 @@ com/pixelworld/controller/MonsterController.class
 com/pixelworld/controller/UserController.class
 com/pixelworld/service/EquipmentService.class
 com/pixelworld/controller/HelloController.class
+com/pixelworld/utils/RecipeUtils.class
 com/pixelworld/controller/InventoryController.class
 com/pixelworld/service/ItemService.class
+com/pixelworld/repository/ForgeRecipeRepository.class
 com/pixelworld/controller/InventoryController$2.class
 com/pixelworld/utils/BattleUtils.class
 com/pixelworld/controller/EquipmentController.class
 com/pixelworld/PixelWorldApplication.class
 com/pixelworld/domain/Equipment.class
+com/pixelworld/domain/ForgeRecipe.class
 com/pixelworld/controller/InventoryController$3.class
 com/pixelworld/controller/ItemController.class
 com/pixelworld/domain/Inventory.class
+com/pixelworld/service/RecipeService.class
 com/pixelworld/domain/User.class
